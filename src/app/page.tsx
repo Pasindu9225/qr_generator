@@ -17,7 +17,7 @@ function page() {
   return (
     <div className=" w-full h-screen flex items-center justify-center bg-slate-400">
       <div className=" w-[250px] h-[300px] bg-gray-200 flex px-5 flex-col items-center justify-center">
-        <h1 className=" text-black font-bold text-xl">QR Code Generater</h1>
+        <h1 className=" text-black font-bold text-xl">QR Code Generator</h1>
         <QRCode
           className=" w-[120px] h-[120px] mt-2 border-2 border-gray-400 px-3 py-3 rounded-sm bg-white"
           value={text}
