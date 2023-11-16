@@ -2,6 +2,7 @@
 import React from "react";
 import QRCode from "react-qr-code";
 import { useState } from "react";
+import AnimatedCursor from "react-animated-cursor";
 
 function Page() {
   const [text, setText] = useState("");
@@ -16,6 +17,7 @@ function Page() {
   };
   return (
     <div className=" w-full h-screen flex items-center justify-center bg-slate-400">
+      <AnimatedCursor />
       <div className=" w-[250px] h-[300px] bg-gray-200 flex px-5 flex-col items-center justify-center">
         <h1 className=" text-black font-bold text-xl">QR Code Generator</h1>
         <QRCode
